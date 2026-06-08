@@ -6,6 +6,7 @@ use Bildvitta\IssProduto\Models\RealEstateDevelopment;
 use Bildvitta\IssProduto\Traits\UsesProdutoDB;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Ramsey\Uuid\Uuid;
 
 class Mirror extends Model
