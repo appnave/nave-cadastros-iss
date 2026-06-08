@@ -46,6 +46,11 @@ class Unit extends Model
         return $this->hasMany(UnitPrice::class, 'unit_id');
     }
 
+    public function unit_personalizations(): HasMany
+    {
+        return $this->hasMany(UnitPersonalization::class, 'unit_id');
+    }
+
     public function tablePrice(): Attribute
     {
         return Attribute::get(function () {
