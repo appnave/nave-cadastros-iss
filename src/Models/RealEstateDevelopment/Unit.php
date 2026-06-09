@@ -17,6 +17,21 @@ class Unit extends Model
 
     protected $connection = 'iss-produto';
 
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array
+     */
+    protected $casts = [
+        'special_needs' => 'boolean',
+        'ready_to_live_in' => 'date',
+        'has_furniture' => 'boolean',
+        'furniture_value' => 'decimal:2',
+        'selling_price' => 'decimal:2',
+        'sale_at' => 'datetime',
+        'map_points' => 'array',
+    ];
+
     public static function boot(): void
     {
         parent::boot();
