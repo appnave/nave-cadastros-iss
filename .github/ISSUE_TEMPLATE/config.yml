@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Ask a question
-    url: https://github.com/bildvitta/iss-produto/discussions/new?category=q-a
+    url: https://github.com/appnave/nave-cadastros-iss/discussions/new?category=q-a
     about: Ask the community for help
   - name: Request a feature
-    url: https://github.com/bildvitta/iss-produto/discussions/new?category=ideas
+    url: https://github.com/appnave/nave-cadastros-iss/discussions/new?category=ideas
     about: Share ideas for new features
   - name: Report a bug
-    url: https://github.com/bildvitta/iss-produto/issues/new
+    url: https://github.com/appnave/nave-cadastros-iss/issues/new
     about: Report a reproducable bug
