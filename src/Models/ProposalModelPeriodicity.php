@@ -13,7 +13,7 @@ class ProposalModelPeriodicity extends Model
 
     protected $connection = 'iss-produto';
 
-    public const array PERIODICITY_LIST = [
+    public const PERIODICITY_LIST = [
         'financing' => 'Financiamento',
         'fgts' => 'FGTS',
         'subsidy' => 'Subsídio',
@@ -36,7 +36,7 @@ class ProposalModelPeriodicity extends Model
         'real_estate_development_exchange' => 'Dação em pagamento - Imóvel',
     ];
 
-    public const array DUE_DATE_TYPE_LIST = [
+    public const DUE_DATE_TYPE_LIST = [
         'construction_over_in' => 'Data de entrega da obra',
         'pre_launch_in' => 'Data de breve lançamento',
         'ready_to_live_in' => 'Data de entrega real',
@@ -44,7 +44,7 @@ class ProposalModelPeriodicity extends Model
         'vmd_in' => 'Valor Minimo de Desligamento',
     ];
 
-    public const array ADD_ON_TYPE_LIST = [
+    public const ADD_ON_TYPE_LIST = [
         'fixed_value' => 'Valor fixo',
         'percentage' => 'Porcentagem',
     ];
